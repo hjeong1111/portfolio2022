@@ -130,7 +130,7 @@
 #section3 .portfolio-box .portfolio-list:after{content: '';display: block;clear: both;}
 #section3 .portfolio-box .portfolio-list > li{float: left;width: 33.3%;margin-bottom: 20px;}
 #section3 .portfolio-box .portfolio-list > li > a{display: block;margin-right: 20px;border:1px solid #eee;}
-#section3 .portfolio-box .portfolio-list > li > a .img-wrap{overflow: hidden;height: 250px;}
+#section3 .portfolio-box .portfolio-list > li > a .img-wrap{overflow: hidden;height: 200px;}
 #section3 .portfolio-box .portfolio-list > li > a .img-wrap > img{display: block;width: 100%;max-width: inherit;}
 #section3 .portfolio-box .portfolio-list > li > a .con-box{padding: 15px 10px;border-top:1px solid #eee;text-align: center;background: #fbfbfb;}
 #section3 .portfolio-box .portfolio-list > li > a .con-box .tit{overflow:hidden;display: block;width:100%;margin-bottom:10px;font-weight: 700;font-size: 1.25rem;color: #000;text-overflow: ellipsis;white-space: nowrap;}
