@@ -25,6 +25,7 @@ $(document).ready(function(){
 
 
     var swiper = new Swiper('#visual-list',{
+        loop: true,
         autoplay: {
           delay: 3500,
           disableOnInteraction: false,
