@@ -37,4 +37,25 @@ $(document).ready(function(){
         },
     });
 
+    var wWidth = $(window).width();
+
+    $('.portfolio-box .tabs .tab-list > li .tab-link').on('click',function(e){
+        e.preventDefault();
+        var tab_id = $(this).attr('data-tab');
+
+        
+        $('.portfolio-box .tabs .tab-list > li').removeClass('current');
+        $('.portfolio-box .tab-con').removeClass('current');
+
+        $(this).parent('li').addClass('current');
+        $('#'+tab_id).addClass('current');
+
+        if($('.portfolio-box .tabs').hasClass('on')){
+            $('.portfolio-box .tabs').removeClass('on');
+        }else{
+            $('.portfolio-box .tabs').addClass('on');
+        }
+    });
+
+
 });
