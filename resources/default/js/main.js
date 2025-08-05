@@ -14,7 +14,6 @@ $(document).ready(function(){
         slidesNavigation: true,
 		slidesNavPosition: 'left',
         sectionSelector:'.section',
-        scrollOverflow:true,
     });
 
 
@@ -57,5 +56,11 @@ $(document).ready(function(){
         }
     });
 
+    $('#section3 .portfolio-box .tab-con').on('mouseover',function(){
+        $.fn.fullpage.setAllowScrolling(false);
+    });
 
+    $('#section3 .portfolio-box .tab-con').on('mouseleave',function(){
+        $.fn.fullpage.setAllowScrolling(true);
+    });
 });

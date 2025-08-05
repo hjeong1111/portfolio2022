@@ -1,6 +1,9 @@
 @charset "utf-8";
 
-
+:root{
+    --white:#fff;
+    --black:#000;
+}
 
 @font-face {
     font-family: 'Pretendard';
@@ -225,4 +228,3 @@ a:focus    {}
 .skipH{position:absolute; height:0; width:0; left:-9999px; overflow:hidden; font-size:0; line-height:0;}
 a.skipNavi {display:block; position:absolute; z-index:500; left:0; top:-10000px; font-size:1.3em; text-align:center; width:100%;}
 a.skipNavi:hover, a.skipNavi:focus, a.skipNavi:active{position:absolute; top:0; z-index:500; padding:15px 0; color:#ffffff; font-weight:bold;background: none repeat scroll 0 0 #1d60a7;}
-
