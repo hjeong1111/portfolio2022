@@ -61,7 +61,7 @@
 #section3 .tabs .tab-list > li .tab-link:after{content:'';position:absolute;bottom:0;left:0;width:0;height:3px;background:var(--black);transition:width .3s;}
 #section3 .tabs .tab-list > li.current .tab-link:after,
 #section3 .tabs .tab-list > li .tab-link:hover:after{width:100%;}
-#section3 .tab-con{overflow:hidden;overflow-y:auto;display:none;height:calc(100vh - 295px);margin-top:70px;padding-right:15px;}
+#section3 .tab-con{overflow:hidden;overflow-y:auto;display:none;height:calc(100vh - 294px);margin-top:70px;padding-right:15px;}
 #section3 .tab-con.current{display:block;}
 #section3 .portfolio-list{margin-right:-20px;margin-top:-20px;}
 #section3 .portfolio-list:after{content:'';display:block;clear:both;}
